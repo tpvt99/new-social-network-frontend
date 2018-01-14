@@ -1,0 +1,208 @@
+.post {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  -webkit-transition: max-height 0.3s ease;
+  transition: max-height 0.3s ease;
+}
+.post-focus {
+  -webkit-filter: drop-shadow(0 1px 10px rgba(0,0,0,0.05));
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.05);
+  filter: drop-shadow(0 1px 10px rgba(0,0,0,0.05));
+}
+.p-u-status {
+  width: 100%;
+}
+.p-u-status #status {
+  resize: none;
+  background-color: inherit;
+  border: none;
+  font-weight: 400;
+  width: 100%;
+  padding: 20px 20px;
+}
+.p-img {
+  padding: 10px;
+}
+.p_img_in {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+._pimage {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s linear;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+._pimage_hover {
+  -moz-filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
+}
+._pcl{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+.p-options {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  >div:not(.options-right) {
+    margin: 0px 10px;
+  }
+  .options-right {
+    margin-left: auto;
+    >div {
+      display: inline-block;
+    }
+  }
+  .option-right1 {
+    color: #fff;
+    padding: 8px 8px;
+    background-color: #3989db;
+    font-weight: 400;
+    .icon {
+    color: #fff;
+    }
+    button {
+      border: none;
+      color: inherit;
+      background-color: inherit;
+      cursor: pointer;
+    }
+  }
+}
+.option-right2 {
+  font-weight: 400;
+  .item {
+    padding: 10px;
+  }
+}
+.post-icon {
+  padding: 0 20px;
+}
+.post-i-bd {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+.p-options .icon {
+  font-size: 18px;
+}
+.material-icon{
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+.material-blue {
+  color: #0058a2;
+}
+.material-turquoise {
+  color: #1abc9c;
+}
+.material-div-active {
+  font-weight: 600;
+  color: #666;
+}
+.icon-orange {
+  color: #e67e22;
+}
+.icon-green {
+  color: #2ecc71;
+}
+.icon-wet {
+  color: #34495e;
+}
+.icon-grey {
+  color: #777;
+}
+.p-friend {
+  padding: 5px 20px;
+  input {
+    border: none;
+  }
+}
+.p-saleTag {
+  padding: 5px 20px;
+  input {
+    border: none;
+    min-width: 100%;
+  }
+}
+.fadef-enter-active, .fadef-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fadef-enter, .fadef-leave-to {
+  opacity: 0;
+}
+.sf-fr {
+  div {
+    display: inline-block;
+    margin: 0px 10px;
+    position: relative;
+  }
+  span {
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    font-weight: 400;
+    color: #3889bd;
+    cursor: pointer;
+    display: none;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}
+.sf-fr >div:hover span {
+  display: block;
+}
+.p-friend {
+  .dropdown-menu {
+  }
+  .p-ajax-fr {
+    cursor: pointer;
+    padding: 5px;
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+  }
+  .p-ajax-fr:hover {
+    background-color: #eee;
+  }
+}
+.showfr {
+  display: block !important;
+}
+.option-right2 > .dropdown:hover .dropdown-menu{
+  display: block;
+}
+.p-reaction {
+  padding: 5px 20px;
+  input {
+    border: none;
+    background-color: #fff;
+    width: 50%;
+  }
+}

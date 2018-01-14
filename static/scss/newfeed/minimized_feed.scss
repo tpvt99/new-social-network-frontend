@@ -1,0 +1,134 @@
+.m_feed_div {
+  background-color: #fff;
+  padding: 10px;
+  padding-bottom: 0;
+  >div {
+    padding: 10px 0px;
+    border-top: 1px solid #eee;
+  }
+}
+.m_feed_div:first-of-type {
+  margin-top: 40px;
+  >div {
+    border:none;
+  }
+}
+.m_feed_user.m_feed_blue {
+  border-left-color: #3889bd;
+}
+.m_feed_user.m_feed_green {
+  border-left-color: #1abc9c;
+}
+.m_feed_user.m_feed_red {
+  border-left-color: #d91e18;
+}
+.m_feed_user.m_feed_yellow {
+  border-left-color: #f1c40f;
+}
+.m_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.m_feed_user {
+  background-color: #fafafa;
+  padding: 10px 20px;
+  border-left: 3px solid #ccc;
+  >div {
+    display: flex;
+    align-items:: center;
+  }
+  .m_time {
+    color: #999;
+    font-size: 12px;
+  }
+}
+.m_feed_time {
+  color: #999;
+  font-size: 12px;
+}
+.m_feed_ge {
+  color: #666;
+}
+.m_name {
+  color: #3a599b;
+  font-weight: 600;
+  font-size: 14px;
+}
+.m_fr_link {
+  color: #3a599b;
+}
+.m_f_text {
+  margin-bottom: 10px;
+}
+.m_feed_main {
+  padding: 20px 20px;
+  padding-bottom: 0px;
+  color: #555;
+}
+.m_f_image {
+  display: flex;
+  flex-flow: row wrap;
+}
+.m_f_image img {
+  width: 150px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+.m_f_comment {
+  color: #666;
+}
+.m_feed_vote {
+  font-size: 14px;
+  padding: 0 20px;
+  padding-top: 20px;
+  display: flex;
+  >div {
+    text-align: center;
+    width: 23%;
+  }
+  .m_f_item {
+    color: #666;
+  }
+  .m_f_item._pl_b_v {
+    color: #f33613;
+  }
+}
+.m_plus_name._elip_text {
+  max-width: 90px;
+  margin: 0 auto;
+}
+.m_feed-vote-statics {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  padding-bottom: 0;
+  >div {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  ._v_in {
+    color: #666;
+    font-weight: 400;
+  }
+}
+.m-feed-comment-post {
+  padding-bottom: 0;
+}
+.feed-comments.m_feed {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 0px 10px;
+  border-top: none;
+}
+.m_feed ._fco_child {
+  padding: 5px;
+}
+.feed-comments.m_feed >div{
+  background-color: #f9f9f9;
+}

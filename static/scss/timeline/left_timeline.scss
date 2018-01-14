@@ -1,0 +1,30 @@
+.left-timeline {
+  width: 100%;
+  font-weight: 400;
+  color: #666;
+}
+._left_a {
+}
+.left-timeline .icon {
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+}
+.left-timeline .icon.fa {
+  font-size: 14px;
+}
+.left-item {
+  margin: 10px 0px;
+}
+.left-item-main {
+  padding-left: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.left-item-active {
+}
+.left-item-active.blue {
+  background-color: #19b5fe;
+  color: #fff;
+}

@@ -1,0 +1,45 @@
+._bg_child {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pr_img {
+  width: 160px;
+  display: inline-block;
+  text-align: center;
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    vertical-align: middle;
+  }
+}
+.pr_name {
+  display: inline-block;
+  color: #fff;
+  margin-left: 10px;
+  h2 {
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    word-spacing: 1px;
+  }
+}
+._bg_c2 {
+  display: flex;
+  align-items: center;
+  >div {
+    margin: 0px 10px;
+  }
+}
+._bg_child .btn{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 7px 40px;
+  color: #3a599b;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+}

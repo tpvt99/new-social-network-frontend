@@ -1,0 +1,7 @@
+@mixin blur_effect($const) {
+  -webkit-filter: blur($const);
+  -moz-filter: blur($const);
+  -o-filter: blur($const);
+  -ms-filter: blur($const);
+  filter: blur($const);
+}

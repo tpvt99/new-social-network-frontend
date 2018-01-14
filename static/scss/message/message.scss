@@ -1,0 +1,106 @@
+._mess_a {
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  @media only screen and(max-width: 1024px) {
+    display: none;
+  }
+}
+._mess_a_modified {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  z-index: 200;
+}
+._messwidth {
+  width: 210px;
+}
+.botmess.MessageMarginRight {
+  right: 210px;
+}
+.botmess.MessageRight0 {
+  right: 10px;
+}
+._mess_list {
+  padding: 0 0;
+  padding-right: 10px;
+}
+._mess_ch {
+  color: #333;
+  padding: 3px 5px;
+  padding-left: 0;
+  width: 100%;
+  >a {
+    color: #333;
+  }
+}
+._mess_block {
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+._mess_img {
+  position :relative;
+  width: 40px;
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+  }
+}
+._mess_img._mess_img_bg {
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  >span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+._mess_lt {
+  float: right;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.m_i_on {
+  background-color: #2ecc71;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.m_no_on {
+  font-size: 10px;
+  color: #999;
+  > div {
+    background-color: #2ecc71;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+  }
+}
+._mess_fn {
+  direction: ltr;
+  text-align: right;
+  padding-right: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 130px;
+  color: #444;
+}

@@ -1,0 +1,50 @@
+@media only screen and(max-width:500px) {
+  .head-fh .head-search {
+    display: none;
+  }
+  .m_feed_div {
+    .m_feed_vote > div {
+      width: 30%;
+    }
+    .m_feed_vote {
+      padding: 0;
+      padding-top: 10px;
+    }
+  }
+  .feed-div {
+    .feed-user {
+      padding: 10px 10px;
+    }
+  }
+}
+
+@media only screen and(max-width:600px) {
+  .head-title.head-lh {
+    display: none;
+  }
+  .head-fh .head-icon {
+    >div {
+      width: 30px;
+    }
+    >div:last-child {
+      width: 40px;
+    }
+  }
+  .feed-div {
+    ._fco_child {
+      padding: 0;
+    }
+    ._fco_child .u-text {
+      padding-right: 10px;
+    }
+    ._fco_child .u-time {
+      min-width: 30px;
+    }
+  }
+}
+@media only screen and(max-width:700px) {
+  .dropdown-menu.mini-feed {
+    right: 0;
+    left: auto;
+  }
+}

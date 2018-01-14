@@ -1,0 +1,168 @@
+.section-networkSearch {
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .dropdown-menu.searchList {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  ._topicItem {
+    cursor: pointer;
+    margin: 3px 0;
+  }
+}
+.section-networkNav {
+  button:first-child {
+    background-color: #3498db;
+    color: #fff;
+  }
+  button {
+    background-color: #1abc9c;
+    color: #fff;
+  }
+  button:last-child {
+    background-color: #9b59b6;
+  }
+}
+.section-networkModal {
+  font-family: 'Open Sans', sans-serif;
+  .modal-container {
+    width: 600px;
+  }
+  ._inputTopicCreate, ._textTopicCreate {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 300px;
+  }
+  ._textTopicCreate {
+    resize: none;
+    margin-top: 10px;
+  }
+}
+.oneRoome {
+  display: flex;
+}
+.chatRoom .listUser {
+  align-items: stretch;
+  border-right: 1px solid #ddd;
+  .listItem {
+    width: 250px;
+    margin: 0 auto;
+    align-items: center;
+    .img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+.chatRoom .listConversation {
+  align-items: stretch;
+  .chatCon {
+    height: 90%;
+  }
+  .chatTextbox {
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    textarea {
+      width: 90%;
+      resize: none;
+      border-radius: 10px;
+      border: 1px solid #aaa;
+      padding: 10px;
+    }
+  }
+  .chatCon {
+  }
+}
+.roomTopics {
+  margin-bottom: 10px;
+}
+.innerTopic {
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 50px;
+}
+.innerTopic:first-child {
+  margin-left: 0px;
+}
+.topicInfo {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.roomTpMain {
+  margin: 10px;
+  padding: 10px 10px;
+  border-top: 1px solid #ddd;
+  width: 500px;
+}
+.roomTpMain:first-of-type {
+  border-top: none;
+}
+.roomTp.Owneruser {
+  margin-top: 5px;
+  img.rppImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+.roomTp.Button {
+  margin: 10px 0;
+  .ButtonRen {
+    cursor: pointer;
+    padding: 0px 10px;
+    border-radius: 50px;
+    border: 1px solid #aaa;
+    color: #333;
+    transition: border 0.3s, background-color 0.3s, color 0.3s;
+  }
+  .ButtonJoin {
+    background-color: #fff;
+  }
+  .ButtonCancel {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  .ButtonAccept {
+    background-color: #2ecc71;
+    color: #000;
+  }
+  .ButtonAccept:hover,
+  .ButtonAccept:active {
+    border: 1px solid #2ecc71;
+    color: #000;
+    background-color: #fff;
+  }
+  .ButtonJoin:hover,
+  .ButtonJoin:active {
+    border: 1px solid #3889db;
+    background-color: #3889db;
+    color: #fff;
+  }
+  .ButtonCancel:hover,
+  .ButtonCancel:active {
+    background-color: #fff;
+    border: 1px solid #e74c3c;
+    color: #000;
+  }
+}
+.roomTp.PartiInfo {
+  >div {
+    margin-top: 10px;
+  }
+}

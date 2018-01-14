@@ -1,0 +1,23 @@
+.profileImage {
+  width: 100%;
+  min-height: 250px;
+  border-radius: 10px;
+}
+.NameUN {
+  font-size: 40px;
+  letter-spacing: 0em;
+  word-spacing: 0.1em;
+  font-weight: 600;
+  color: #555;
+}
+.marCenter {
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #3889db;
+  font-size: 15px;
+}
+._country_info, ._age_sex_info {
+  font-size: 16px;
+  margin: 10px 0;
+}

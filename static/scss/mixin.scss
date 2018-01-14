@@ -1,0 +1,16 @@
+::-webkit-input-placeholder($color, $text-align) {
+  color: $color;
+  text-align: $text-align;
+}
+:-moz-placeholder($color, $text-align) {
+  color: $color;
+  text-align: $text-align;
+}
+::-moz-placeholder($color, $text-align) {
+  color: $color;
+  text-align: $text-align;
+}
+:-ms-input-placeholder($color, $text-align) {
+  color: $color;
+  text-align: $text-align;
+}

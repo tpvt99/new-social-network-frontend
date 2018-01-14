@@ -1,0 +1,139 @@
+@mixin blur_effect($const) {
+  -webkit-filter: blur($const);
+  -moz-filter: blur($const);
+  -o-filter: blur($const);
+  -ms-filter: blur($const);
+  filter: blur($const);
+}
+@mixin flex-grid {
+  display: -webkit-flex;
+  display: flex;
+}
+.background-div {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  width: 400px;
+  min-height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  >div.form {
+    padding: 0px 20px;
+  }
+}
+.intro {
+  text-align: center;
+  h2 {
+    font-size: 20px;
+    word-spacing: 0em;
+    letter-spacing: 0em;
+  }
+  img {
+    width: 450px;
+    height: 250px;
+  }
+}
+.header {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+.form {
+  margin: 0 auto;
+}
+.form > div {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: 50px;
+  @include flex-grid
+  justify-content: center;
+  align-items: center;
+  a {
+    color: rgb(32,28,89);
+  }
+}
+.login-form > div, .register-form > div {
+    margin: 30px 2%;
+}
+.login-form, .register-form {
+  width: 100%;
+  .form-input {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+  }
+  .ui.input {
+    width: 90%;
+  }
+  button {
+    background-color: #3889db;
+    color: #fff;
+    width: 90%;
+  }
+}
+.fade-enter-active {
+  animation: slide-in 0.5s ease;
+}
+.fade-leave-active {
+  animation: slide-out 0.5s ease;
+}
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slide-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+@media only screen and(max-width: 1023px) {
+
+}
+@media only screen and(max-width: 767px) {
+  .intro {
+    display: none;
+  }
+  .content {
+    width: 70%;
+  }
+}
+@media only screen and(max-width: 480px) {
+  .content {
+    width: 100%;
+    right: 0;
+    height: 100%;
+    .form {
+      width: 95%;
+    }
+  }
+  .footer {
+    h4 {
+      font-size: 12px;
+    }
+  }
+  .background-div {
+    background-image: none;
+  }
+}
