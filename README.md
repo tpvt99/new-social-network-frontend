@@ -1,4 +1,4 @@
-# p
+# Introduction
 
 > A Vue.js project
 
@@ -28,3 +28,6 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+# How to run?
+You must run both the backend used Django to support data exchange between frontend using Vue and backend.
